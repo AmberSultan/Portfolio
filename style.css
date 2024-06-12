@@ -11,7 +11,7 @@ html, body {
 }
 
 .header{
-    background-image: url(../images/background.png); 
+    background-image: url(images/background.png); 
     color: aliceblue;
     width: 100%;
     background-size: cover;
@@ -366,7 +366,7 @@ nav .fa-solid{
 @media only screen and (max-width: 1070px){
 
     .header{
-        background-image: url(../images/background2.png); 
+        background-image: url(images/background2.png); 
         background-size: cover;
         background-position: center;
         height: 130vh;
@@ -461,7 +461,7 @@ nav .fa-solid{
     
 
     .header{
-        background-image: url(../images/background3.png); 
+        background-image: url(images/background3.png); 
         background-size: cover;
         background-position: center;
         background-position: center;
@@ -526,7 +526,7 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 485px){
     .header{
-        background-image: url(../images/background4.png); 
+        background-image: url(images/background4.png); 
         background-size: cover;
         background-position: center;
         background-position: center;
