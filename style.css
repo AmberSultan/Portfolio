@@ -11,7 +11,7 @@ html, body {
 }
 
 .header{
-    background-image: url(../images/background.png); 
+    /* background-image: url(../images/background.png);  */
     color: aliceblue;
     width: 100%;
     background-size: cover;
@@ -365,12 +365,12 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 1070px){
 
-    .header{
+    /* .header{
         background-image: url(../images/background2.png); 
         background-size: cover;
         background-position: center;
         height: 130vh;
-    }
+    } */
     .contactMe{
         display: block;
    }
@@ -460,14 +460,14 @@ nav .fa-solid{
 @media only screen and (max-width: 630px){
     
 
-    .header{
+    /* .header{
         background-image: url(../images/background3.png); 
         background-size: cover;
         background-position: center;
         background-position: center;
         background-size: auto;
         height: 109vh;
-    }
+    } */
     .header-text{
         margin-top: 120px;
     }
@@ -525,14 +525,14 @@ nav .fa-solid{
     }
 }
 @media only screen and (max-width: 485px){
-    .header{
+    /* .header{
         background-image: url(../images/background4.png); 
         background-size: cover;
         background-position: center;
         background-position: center;
         background-size: auto;
         height: 95vh;
-    }
+    } */
     .header-text{
         margin-top: 100px;
     }
@@ -572,6 +572,9 @@ nav .fa-solid{
         }
 }
 @media only screen and (max-width: 460px){
+    .header{
+        background-color: hidden;
+    }
     .header-text h2{
         font-size: 15px;
     }
@@ -591,6 +594,9 @@ nav .fa-solid{
     }
 }
 @media only screen and (max-width: 430px){
+    .header{
+        background-color: hidden;
+    }
     .info li {
         margin-right: 40px;
         font-size: 18px;
@@ -613,11 +619,18 @@ nav .fa-solid{
 }
 @media only screen and (max-width: 430px){
     .header{
-        height: 50vh;
+        background-color: hidden;
     }
+
+    /* .header{
+        height: 50vh;
+    } */
 }
 @media only screen and (max-width: 390px){
     .header{
-        height: 60vh;
+        background-color: hidden;
     }
+    /* .header{
+        height: 60vh;
+    } */
 }
